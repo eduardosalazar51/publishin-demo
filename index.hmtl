@@ -14,7 +14,7 @@
 
 
     <!-- Your styles should be called here -->
-    <link rel="stylesheet" href="styles.css" >
+    <link rel="stylesheet" href="styles1.css" >
 
 </head>
 
@@ -71,13 +71,6 @@ Feeding America reveals that in New York 1 million 882 thousand 580 people face 
     <p> <b> In the Bronx, the New York's borough with the highest rate of food insecurity, one in four people have nothing to eat. Here, where Blacks and Latinos are the most at-risk populations, some citizen initiatives seek to address the problem. Daniel Zauderer, executive director of Grassroots Grocery, a nonprofit organization, says “there is an urgent need to take action to facilitate access to food and open the way for large companies or even schools feel free donate their remaining food”, and he believes in neighbors helping neighbors, also he thinks the food insecurity is a problem that all society has to fight together. </b> </p>
 </div>
 
-<iframe title="Food insecurity by ethnicity in Bronx (2021)" aria-label="Grouped Column Chart" id="datawrapper-chart-OmQTK" src="https://datawrapper.dwcdn.net/OmQTK/9/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="352" data-external="1">
-
-</iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-
-</script>
-
-<p> Source: <a href='https://www.cdc.gov/poxvirus/monkeypox/symptoms/index.html'> WHO – World Health Organization. Center for Disease Control and Prevention – US. </a></p>
 
 <iframe title="Food insecurity by ethnicity in NYC" aria-label="Grouped Column Chart" id="datawrapper-chart-OmQTK" src="https://datawrapper.dwcdn.net/OmQTK/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="352" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
