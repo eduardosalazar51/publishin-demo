@@ -1,0 +1,166 @@
+/*
+This is a good layout for a mobile-first CSS template.
+Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
+Most of your styles get written like standard CSS, but for your mobile presentation. Generally speaking, a good mobile presention will stretch out nicely for larger screens.
+Sometimes, when we stretch out to larger screens, we need to make minor tweaks for the larger devices -- you can make these tweaks in the tablet media query, or if the issue exists on desktop only, the desktop media query.
+You will find this is far easier than the opposite task of using CSS to cram your desktop experience into a mobile device.
+*/
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+@import url('https://fonts.google.com/noto/specimen/Noto+Sans');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: white;
+    font-style: normal;
+    padding: 50px;
+}
+
+
+#byline {font-style: italic;
+  color: black;
+  font-family: sans-serif;
+}
+
+
+#photodescription {font-style: italic;
+  color: black;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 8px}
+
+  .div {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+img {display: block;
+width: 100%;
+align-content: center;
+}
+
+.container {
+  display: block;
+  max-width: 50px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+.container-photo {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row
+  width: inherit;
+}
+
+.photo-responsive{
+  overflow: hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  position:absolute;
+}
+
+p {
+    font-family: 'sans-serif;';
+    font-size: 16px;
+    }
+
+b {
+    font-family: 'sans-serif;';
+    font-size: 20px;
+    color: 052C37;
+    }
+
+h1 {
+    font-family: 'sans-serif;';
+    color:052C37;
+    font-size: 36px;
+    }
+
+h2 {
+    font-family: 'sans-serif;';
+    color:1D677C;
+    font-size: 20px;
+    }
+
+h3 {
+    font-family: 'sans-serif;';
+    color:1D677C;
+    font-size: 16px;
+    }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+
+      .flex {
+        display: flex;
+        justify-content: space-between;
+      }
+
+
+      .flex > div {
+        flex-basis: 50%;
+        padding left: 10px;
+      }
+
+
+    .container-photo {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+
+    }
+
+    img {
+      display: flex;
+      width: 100%;
+      height: auto;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      padding-left: 0px;
+
+    }
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px); {
+
+}
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+  }
+
+.flex {
+  display: flex;
+  padding: inherit;
+}
+
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
