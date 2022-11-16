@@ -8,8 +8,8 @@ You will find this is far easier than the opposite task of using CSS to cram you
 /*********************************************************************
  LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
 *********************************************************************/
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
-@import url('https://fonts.google.com/noto/specimen/Noto+Sans');
+@import ('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+@import ('https://fonts.google.com/noto/specimen/Noto+Sans');
 
 /*********************************************************************
   YOUR MOBILE/BASE STYLES GO HERE
