@@ -8,8 +8,7 @@ You will find this is far easier than the opposite task of using CSS to cram you
 /*********************************************************************
  LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
 *********************************************************************/
-@import ('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
-@import ('https://fonts.google.com/noto/specimen/Noto+Sans');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 
 /*********************************************************************
   YOUR MOBILE/BASE STYLES GO HERE
@@ -18,84 +17,44 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
-    font-family: sans-serif;
-    background-color: white;
-    font-style: normal;
-    padding: 50px;
+ padding: 0.5em;
 }
-
-
-#byline {font-style: italic;
-  color: black;
-  font-family: sans-serif;
-}
-
-
-#photodescription {font-style: italic;
-  color: black;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 8px}
-
-  .div {
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-  }
 
 img {display: block;
 width: 100%;
 align-content: center;
 }
 
-.container {
-  display: block;
-  max-width: 50px;
-  margin: 0 auto;
-  font-size: 16px;
-}
-
-.container-photo {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row
-  width: inherit;
-}
-
-.photo-responsive{
-  overflow: hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
-  position:absolute;
-}
-
+.container {max-width: 700px ;
+            margin: auto;
+            padding: 10px;
+ }
+  
 p {
-    font-family: 'sans-serif;';
+    font-family: 'PT Sans';
     font-size: 16px;
     }
 
 b {
-    font-family: 'sans-serif;';
-    font-size: 20px;
-    color: 052C37;
+        font-family: 'PT Sans';
+        font-size: 20px;
+        color: 052C37;
     }
 
 h1 {
-    font-family: 'sans-serif;';
+    font-family: 'PT Sans';
     color:052C37;
     font-size: 36px;
     }
 
 h2 {
-    font-family: 'sans-serif;';
+    font-family: 'PT Sans';
     color:1D677C;
     font-size: 20px;
     }
 
 h3 {
-    font-family: 'sans-serif;';
+    font-family: 'PT Sans';
     color:1D677C;
     font-size: 16px;
     }
@@ -115,52 +74,59 @@ h3 {
     /* Any adjustments for tablets and larger go here.
     Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
 
-      .flex {
-        display: flex;
-        justify-content: space-between;
-      }
+.icon1{
+display: flex;
+justify-content: flex-start;
+flex-direction: row;
+flex-basis:  70%; 
+
+}
+
+.icon2{
+ display: flex;
+justify-content: flex-start;
+flex-direction: row;
+flex-basis:  70%; 
+}
+
+.icon3{
+display: flex;
+justify-content: flex-start;
+flex-direction: row;
+flex-basis:  70%; 
+}
 
 
-      .flex > div {
-        flex-basis: 50%;
-        padding left: 10px;
-      }
-
-
-    .container-photo {
-      display: flex;
-      flex-wrap: nowrap;
-      flex-direction: row;
-
-    }
-
-    img {
-      display: flex;
-      width: 100%;
-      height: auto;
-      padding-bottom: 10px;
-      padding-top: 10px;
-      padding-left: 0px;
-
-    }
 
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
 *********************************************************************/
-@media(min-width: 729px); {
-
-}
-  h1 {
-    text-align: center;
-    font-size: 40px;
-    padding: 20px;
-  }
-
-.flex {
-  display: flex;
-  padding: inherit;
-}
-
+@media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 729px or larger -- so desktop */
+.icon1{
+display: flex;
+flex-direction: row;
+flex-basis:  70%; 
+
 }
+
+.icon2{
+display: flex;
+flex-direction: row;
+flex-basis:  70%; 
+
+}
+
+.icon3{
+display: flex;
+flex-direction: row;
+flex-basis:  70%; 
+
+}
+
+.pic{
+   max-width: 200px;
+   max-height:150px;
+
+ }
